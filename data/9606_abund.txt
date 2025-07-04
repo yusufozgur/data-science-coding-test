@@ -1,4 +1,4 @@
-#Taxid	Ensembl_protein	Gn	Mean-copy-number
+Taxid	Ensembl_protein	Gn	Mean-copy-number
 9606	ENSP00000263100	A1BG	885.188
 9606	ENSP00000282641	A1CF	19.016
 9606	ENSP00000282641	A1CF	19.016

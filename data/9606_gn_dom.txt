@@ -1,4 +1,4 @@
-#Gn	Domain	Start	End	Eval
+Gn	Domain	Start	End	Eval
 A1BG	Ig	127	201	0.38
 A1BG	Ig	217	300	3e-15
 A1BG	Ig	31	110	8.2e-06
