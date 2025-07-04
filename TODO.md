@@ -4,7 +4,7 @@
 - [x] Solve the questions in A
   - [x] Solve questions using linux command line
 - [x] Solve the questions in B
-- [ ] email the repo link back to specified address
-  - [ ] include answers.pdf
-  - [ ] include repo zip.
-  - [ ] send answers.txt by email
+- [x] email the repo link back
+  - [x] include solutions.pdf
+  - [x] send solutons.txt by email
+  - [x] send csv files

@@ -1,8 +1,9 @@
 # Setup
 Install uv for package management from [here](https://docs.astral.sh/uv/getting-started/installation/)
 
+In order to get the virtual environment, run following
 ```
-uv run
+uv sync
 ```
 
 # Running the web app
