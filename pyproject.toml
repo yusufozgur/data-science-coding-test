@@ -1,0 +1,15 @@
+[project]
+name = "data-science-coding-test"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "polars>=1.31.0",
+]
+
+[dependency-groups]
+dev = [
+    "marimo>=0.14.10",
+    "streamlit>=1.46.1",
+]

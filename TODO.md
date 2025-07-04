@@ -1,0 +1,6 @@
+- [ ] Create webapp
+  - dropdown to choose questions
+  - click to show answers
+- [ ] Solve the questions in
+- [ ] Solve questions using linux command line
+- [ ] email the repo link back to specified address
