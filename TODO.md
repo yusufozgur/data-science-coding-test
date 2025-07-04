@@ -1,6 +1,10 @@
 - [ ] Create webapp
   - dropdown to choose questions
   - click to show answers
-- [ ] Solve the questions in
-- [ ] Solve questions using linux command line
+- [ ] Solve the questions in A
+  - [ ] Solve questions using linux command line
+- [ ] Solve the questions in B
 - [ ] email the repo link back to specified address
+  - [ ] include answer summaries pdf.
+  - [ ] include repo zip.
+  - [ ] include answers.txt
