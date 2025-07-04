@@ -32,7 +32,7 @@ def _(mo, pl):
 
 @app.cell
 def _(abund, mo):
-    mo.vstack(["**A1.** How many protein/copy-number pairs are in the file? (Single numerical value)",
+    mo.vstack(["**A1.1.** How many protein/copy-number pairs are in the file? (Single numerical value)",
               abund.shape[0]
               ])
     return
@@ -40,7 +40,7 @@ def _(abund, mo):
 
 @app.cell
 def _(abund, mo):
-    mo.vstack(["How many unique copy number values are there in the file? (Single numerical value)",
+    mo.vstack(["**A1.2.** How many unique copy number values are there in the file? (Single numerical value)",
                abund["Mean-copy-number"].n_unique()
               ])
     return
@@ -48,7 +48,7 @@ def _(abund, mo):
 
 @app.cell
 def _(abund, mo):
-    mo.vstack(["How many pairs of protein and copy number values are in the file? (Single numerical value)",
+    mo.vstack(["**A1.3.** How many pairs of protein and copy number values are in the file? (Single numerical value)",
               abund.group_by(["Gn","Mean-copy-number"]).len().shape[0]
               ])
     return
@@ -56,10 +56,14 @@ def _(abund, mo):
 
 @app.cell
 def _(mo):
+    mo.vstack(["**A1.4.** Please also answer the first three questions using a single command line operation in linux."])
+    return
+
+
+@app.cell
+def _(mo):
     mo.md(
         r"""
-    Please also answer the first three questions using a single command line operation in linux.
-
     Answer:
     You can run the following cli commands in nushell (https://www.nushell.sh/)
     ```

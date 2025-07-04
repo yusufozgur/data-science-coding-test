@@ -1,10 +1,10 @@
-- [ ] Create webapp
+- [x] Create webapp
   - dropdown to choose questions
   - click to show answers
-- [ ] Solve the questions in A
-  - [ ] Solve questions using linux command line
-- [ ] Solve the questions in B
+- [x] Solve the questions in A
+  - [x] Solve questions using linux command line
+- [x] Solve the questions in B
 - [ ] email the repo link back to specified address
-  - [ ] include answer summaries pdf.
+  - [ ] include answers.pdf
   - [ ] include repo zip.
-  - [ ] include answers.txt
+  - [ ] send answers.txt by email

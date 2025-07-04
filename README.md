@@ -8,6 +8,7 @@ uv run
 # Running the web app
 
 ```
+uv run python -m streamlit run app.py
 ```
 
 # Running the marimo notebook
